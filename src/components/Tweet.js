@@ -1,9 +1,10 @@
-function Tweet() {
+
+
+export default function Tweet(props) {
   return (
     <div className="tweet">
       <img
-        src="https://i.imgur.com/9yw1Fyw.jpg"
-        className="profile"
+        src="https://i.imgur.com/9yw1Fyw.jpg" className="profile"
         alt="profile"
       />
 
@@ -36,4 +37,3 @@ function Tweet() {
   );
 }
 
-export default Tweet;
